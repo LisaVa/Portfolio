@@ -8,6 +8,17 @@
 .case-studies {
   margin: 0%, 2.33%, 0%;
   background-color: rgba(188,194,202,.2);
+  padding: 30px, 0, 30px;
+}
+
+.case-study-preview {
+  padding: 3em, 0em, 3em;
+}
+
+.case-studies .display_image {
+  height: 300px;
+  width: 620px;
+  display: block;
 }
 
 .about-me-body {
