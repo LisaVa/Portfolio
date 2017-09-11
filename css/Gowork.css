@@ -1,0 +1,22 @@
+.case-study-body {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.icon_four_column {
+  margin-left: 8.66666666667%;
+  margin-right: 8.66666666667%;
+}
+
+.icon_text {
+  display: block;
+  margin: auto;
+  padding: auto;
+
+}
+.icon {
+  height: 8rem;
+  padding: 2rem;
+  display: block;
+  margin: auto;
+}
