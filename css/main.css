@@ -189,6 +189,12 @@ p.date {
   font-weight: 400;
 }
 
+p.caption {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 
 /* Larger than phablet */
 @media (min-width: 550px) {
