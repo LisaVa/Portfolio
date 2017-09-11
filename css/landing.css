@@ -19,6 +19,19 @@
   padding: 3em, 0em, 3em;
 }
 
+
+.case-study-preview .container .row {
+  position: relative;
+}
+
+
+.case-study-preview .container .row .display_image {
+  width: 100%;
+  bottom: 0
+}
+
+/*
+
 .display_image {
   height: 300px;
   width: 620px;
@@ -40,6 +53,8 @@
   align-items: baseline;
 }
 }
+*/
+
 
 .about-me-body {
   margin-left: 17.3333333333%;
