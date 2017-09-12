@@ -20,17 +20,43 @@
 }
 
 
-.case-study-preview .container .row {
+.case-study-preview .container .image_wrapper {
   position: relative;
+  height: 300px;
 }
-
 
 .case-study-preview .container .row .display_image {
   width: 100%;
-  bottom: 0
+  position:absolute;
+  height: auto;
+  bottom: 0;
 }
 
 /*
+
+@media (min-width: 1024px) {
+.case-study-preview .container .row .display_image {
+  width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+.case-study-preview .container .row .display_image {
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 320px) {
+.case-study-preview .container .row .display_image {
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  }
+}
+
+
 
 .display_image {
   height: 300px;
@@ -51,10 +77,9 @@
   height: 180px;
   width: 372px;
   align-items: baseline;
-}
+  }
 }
 */
-
 
 .about-me-body {
   margin-left: 17.3333333333%;
