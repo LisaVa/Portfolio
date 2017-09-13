@@ -1,13 +1,14 @@
 
 .hero {
   margin-left: 17.3333333333%;
-  margin-top: 10%;
-  margin-bottom: 20%
+  margin-top: 10rem;
+  margin-bottom: 15rem;
 }
 
 .case-studies {
-  margin: 0%, 2.33%, 0%;
-  background-color: rgba(188,194,202,.2);
+  margin: 0 2.33% 0;
+  padding: 5rem 0 10rem;
+  background-color: rgba(188,194,202,.5);
 
 }
 
@@ -30,6 +31,11 @@
   position:absolute;
   height: auto;
   bottom: 0;
+}
+
+section.about-me {
+  padding: 5rem 0 10rem;
+
 }
 
 /*
