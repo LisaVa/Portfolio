@@ -191,7 +191,8 @@ p.date {
 
 p.caption {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  font-style: italic;
   font-weight: 400;
 }
 
@@ -455,8 +456,32 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
+/*
 tr:nth-child(even) {background:rgba(252,203,74,.2)}
 tr:nth-child(odd) {background:rgb(252,203,74)}
+*/
+
+table.small_dark_yellow {
+  margin-left: 17.3333333333%;
+  margin-right: 17.3333333333%;
+  padding: 1rem;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(13,15,11);
+}
+
+table.small_dark_yellow,
+tr:nth-child(even) {background-color:rgba(252,203,74,.2)}
+tr:nth-child(odd) {background-color:rgb(252,203,74)}
+
+table.no-outline {
+  vertical-align: baseline;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: none;
+  background-color: inherit;
+}
+
 
 
 /* Spacing
@@ -485,10 +510,30 @@ form {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
 .u-max-full-width {
   max-width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
+
+.u-one-half-width {
+  max-width: 50%;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
+.u-one-third-width {
+  width: 33.33333%;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
+
 .u-pull-right {
   float: right; }
 .u-pull-left {

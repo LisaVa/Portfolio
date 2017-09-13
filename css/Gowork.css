@@ -1,34 +1,78 @@
-.case-study-body {
-  margin-left: 22%;
-  margin-right: 22%;
+section.case-study-hero {
+  background-image: url(../images/hero_image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+@media (min-width: 550px) {
+.case-study-body {
+  margin-left: 13.3333333333%;;
+  margin-right: 13.3333333333%;;
+  }
+}
+
+@media (max-width: 350px) {
+  .case-study-body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.case-study-full-column {
+
+}
+
+
+.spotlight {
+  background-color: rgba(252,203,74,.5);
+}
+
+.spotlight .pricing_image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-width: medium;
+  border-color: #0D0F0B;
+}
+
+.case-study-body .spotlight .u-full-width {
+
+}
+/*
+img.u-full-width {
+  min-width: 200px;
+}
+
+
 .icon_four_column {
-  margin-left: 8.66666666667%;
-  margin-right: 8.66666666667%;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
 }
 
 .icon_text {
   display: block;
-  margin: auto;
-  padding: auto;
+  margin: 10px;
+  padding: 0px;
 
 }
+*/
 .icon {
   height: 8rem;
-  padding: 2rem;
+  padding: 1rem;
   display: block;
   margin: auto;
 }
 
-table.small {
-  margin-left: 17.3333333333%;
-  margin-right: 17.3333333333%;
-  padding: 1rem;
-  border-style: solid;
-  border-width: thin;
-  border-color: rgb(13,15,11);
+.icon-caption {
+  text-align: center;
 }
+
+
+
+
+
+
 /*
 table.small.dark_yellow {
   background-color: rgb(252, 203, 74);
