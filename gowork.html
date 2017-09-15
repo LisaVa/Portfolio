@@ -16,7 +16,7 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:200,400,600,700" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -60,19 +60,30 @@
         <div class="twelve columns">
           <div class="eight columns">
             <h1>Gowork</h1>
-            <p>Designing and prototyping a location-based app that users to
+            <p class="large_style">Designing and prototyping a location-based app that users to
             identify and compare coworking spaces in New York City<p>
-            <br>
             <p>4 weeks | Concept Project</p>
             <p>Research | Information Architecture | Visual Design | Prototyping</p>
-          </div>
-          <div class="four columns">
-            <img src="images/phone_for_hero.png" class="u-max-full-width" alt=" ">
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="case-study-hero-images">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+            <div class="six columns">
+              <img src="images/result_view_hero_2.png" class="u-max-full-width" alt=" ">
+            </div>
+            <div class="six columns">
+              <img src="images/detail_view_hero_2.png" class="u-max-full-width" alt= " ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   <!-- Case Study Background
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <section class="case-study-section-black">
@@ -206,7 +217,7 @@
 
   <!-- Process - long section
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section class="case-study-section">
+  <section class="case-study-section-white">
     <div class="section-title">
       <div class="container">
         <div class="row">
@@ -223,7 +234,7 @@
         <div class="row">
           <div class="three columns">
             <img src ="images/Research icon.png" class="icon" alt="icon">
-            <h5 class="icon-caption">Research</h5>
+            <h5 >Research</h5>
           </div>
           <div class="three columns">
             <img src ="images/information_arc_icon.png" class="icon" alt="icon">
@@ -246,27 +257,28 @@
       <div class="container">
         <div class="row">
           <div class="twelve columns">
-            <h3 class="icon-caption">Research</h3>
+            <div class="case-study-subsection">
+            <h3>Research</h3>
             <p>I conducted extensive research on the freelance market and
               coworking spaces in NYC to support the development of this app.
             </p>
-            <h4>Secondary Research</h4>
-            <p>The first step was to look at what coworking spaces in New York
+            <div class="case-study-sub-subsection">
+              <h4>Secondary Research</h4>
+              <p>The first step was to look at what coworking spaces in New York
               city offer their users. To do this, I assessed  4 coworking
               options here by Price, Location, and Amenities. I selected a major
                chain/name brand site (WeWork), a smaller, lesser known chain
                (Spacious), and two individual sites (one in Manhattan, one in
                Brooklyn) to keep this data reprsentative. You can see my
                assessment here.
-            </p>
-            <br>
-            <p>
+             </p>
+             <p>
                To get a sense of what similar apps in other verticals have
                prioritized, I conducted a benchmark study of Yelp, Aribnb,
                Seamless (a food ordering app) and StreetEasy (a New York-based
                real estate app).
-            </p>
-            <table class="small_dark_yellow">
+             </p>
+             <table class="small_dark_yellow">
               <tr class="dark_yellow">
                 <td class="row_title">Primary search options</td>
                 <td class=""><p>
@@ -278,10 +290,10 @@
                   <br>
                   Date/time needed
                 </p></td>
-              </tr>
-              <tr class="light_yellow">
-                <td class="row_title">Secondary search options</td>
-                <td><p>
+                </tr>
+                <tr class="light_yellow">
+                  <td class="row_title">Secondary search options</td>
+                  <td><p>
                   Price
                   <br>
                   Amenities
@@ -324,6 +336,8 @@
                 </p></td>
               </tr>
             </table>
+          </div>
+          <div class="case-study-sub-subsection">
             <h4>Survey</h4>
             <p>After conducting my secondary research, I had enough information
               to build a framework for my primary research. I was well versed in
@@ -351,6 +365,8 @@
               with others?
               </li>
             </ol>
+          </div>
+          <div class="case-study-sub-subsection">
             <h4>Survey Results</h4>
             <ol>
               <li>How interested are people in coworking, and how frequently
@@ -407,6 +423,8 @@
                    </li>
                  </ul>
             </ol>
+          </div>
+            <div class="case-study-sub-subsection">
             <h4>Personas</h4>
             <p>After gathering this information from the survey respondents,
                I condensed the most popular responses into three personas.</p>
@@ -418,19 +436,23 @@
               closer to home and with greater flexibility. I used Adrian’s
               persona to help with the prioritization of user stories and
               flows in the next section</p>
-            <h3>Information Architecture</h3>
-            <h4>User Stories</h4>
-            <p>The initial list of User Stories took into account all my
+          </div>
+        </div>
+        <div class="case-study-subsection">
+          <h3>Information Architecture</h3>
+            <div class="case-study-sub-subsection">
+              <h4>User Stories</h4>
+                <p>The initial list of User Stories took into account all my
                findings from my primary and secondary research </p>
-              <p>I then used the survey results to prioritize features for the
+               <p>I then used the survey results to prioritize features for the
                 initial MVP. In the example below, I prioritized filters that users
                 should have to narrow their search results. The items highlighted in
                 red are the most critical, and were included in this MVP. Yellow
                 highlighted items are secondary features, and the blue are the least critical.
-              </p>
-              <img src="images/Prioritized_user_stories.png" class="u-full-width">
-              <p class="caption">Prioritized user stories.</p>
-              <p>I prioritized the two most popular amenities (Printing services
+                </p>
+                <img src="images/Prioritized_user_stories.png" class="u-full-width">
+                <p class="caption">Prioritized user stories.</p>
+                <p>I prioritized the two most popular amenities (Printing services
                  and available beverages) and paired them with reserved seating
                  for our initial amenities features. I chose to move reserved
                  seating from a feature to an amenity to condense the number of
@@ -441,48 +463,55 @@
                   industry, but reserve seating is more specific, and in
                   hindsight fit better with amenities.</p>
                   <br>
-                <p>Accessibility outside business hours: While this scored
+                  <p>Accessibility outside business hours: While this scored
                   relatively low overall on features, I opted to keep in the MVP
                   for 3 reasons:</p>
-                  <ol>
-                    <li>A significant minority ranked it as their number 1
+                    <ol>
+                      <li>A significant minority ranked it as their number 1
                       consideration (around 10% of respondents).</li>
-                    <li>My benchmark study of apps in other verticals indicated
+                      <li>My benchmark study of apps in other verticals indicated
                       hours of operation is a standard feature, leading to the
                       concern users would expect to see it</li>
-                    <li>Research into the freelance/independent workforce
+                      <li>Research into the freelance/independent workforce
                       indicated that many work irregular hours or are
                       freelancing part time/on top of daytime commitments,
                       leading me to believe that despite the survey results a
                       significant number of users might find this useful (in my
                       user personas, both the entrepreneur and the writer would
                       potentially benefit from this feature)</li>
-                  </ol>
-                <img src="">
-              <h4>User Flows</h4>
-              <p>After creating the user stories it was time to map out the user
-                flows:</p>
-              <img src="images/user_flows/search_from_landing+page.png" class="u-full-width">
-              <p class="caption">Sample user flow</p>
-              <img src="images/user_flows/returning_user_edit_reviews.png" class="u-full-width">
-              <p class="caption">Sample user flow</p>
-              <p>It was important to me that those who opt to skip making an
-                account still be able to search and filter for coworking spaces.
-                The benefits of having an account are being able to save your
-                favorite spaces and review the ones you have visited. However,
-                given the newness of the app concept I wanted to account for
-                the fact that users may want to explore the app and its features
-                 before signing up, and allow them to do so, rather than lose
-                 them at the onboarding.</p>
-              <h4>Wireframes</h4>
-              <p>Once my user flows were finalized, it was time to begin visualizing my app. I sketched out wireframes of each of the pages, and once that was completed I made a quick prototype in InVision to spot-check I hadn’t left out any crucial steps or images.
-</p>
-              <img src="images/wireframes/landing_page_wireframe.png" class="u-one-half-width" alt="wireframe">
-              <p class="caption">initial wireframe for the landing page</p>
-              <img src="images/wireframes/landing_page_dropdown.png" class="u-one-half-width" alt="wireframe">
-              <p class="caption">initial wireframe for the landing page with a dropdown for filters</p>
-              <img src="images/wireframes/account_page_wireframe.png" class="u-one-half-width" alt="wireframe">
-              <p class="caption">initial wireframe of the account page for a returning user</p>
+                    </ol>
+                  <img src="">
+                </div>
+                <div class="case-study-sub-subsection">
+                  <h4>User Flows</h4>
+                  <p>After creating the user stories it was time to map out the user
+                    flows:</p>
+                    <img src="images/user_flows/userflow_review_space.png" class="u-max-full-width">
+                    <p class="caption">Sample user flow</p>
+                    <img src="images/user_flows/userflow_save_space.png" class="u-max-full-width">
+                    <p class="caption">Sample user flow</p>
+                    <p class="caption">Sample user flow</p>
+                    <img src="images/user_flows/userflow_search_from_landing.png" class="u-max-full-width">
+                    <p class="caption">Sample user flow</p>
+                    <p>It was important to me that those who opt to skip making an
+                      account still be able to search and filter for coworking spaces.
+                      The benefits of having an account are being able to save your
+                      favorite spaces and review the ones you have visited. However,
+                      given the newness of the app concept I wanted to account for
+                      the fact that users may want to explore the app and its features
+                      before signing up, and allow them to do so, rather than lose
+                      them at the onboarding.</p>
+                  </div>
+                  <div class="case-study-sub-subsection">
+                    <h4>Wireframes</h4>
+                    <p>Once my user flows were finalized, it was time to begin visualizing my app. I sketched out wireframes of each of the pages, and once that was completed I made a quick prototype in InVision to spot-check I hadn’t left out any crucial steps or images.
+                    </p>
+                    <img src="images/wireframes/wireframes_home_search.png" class="u-full-width" alt=" ">
+                    <p class="caption">Initial wireframes for the page, search results, filters, etc.</p>
+                    <img src="images/wireframes/wireframes_account_page_setup.png" class="u-full-width" alt=" ">
+                    <p class="caption">Initial wireframes for the account page setup and editing</p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -506,7 +535,7 @@
                     Yelp’s dollar sign feature to help users indicate whether
                     they were looking on the lower end or the higher end of the
                     pricing spectrum:</p>
-                  <img src="images/wireframes/landing_page_dropdown.png" class="pricing_image" alt="image">
+                  <img src="images/wireframes/landing_page_dropdown.png" class="u-one-third-width" alt="image">
                   <p class="spotlight-text">However, initial user feedback immediately made it clear
                   that this would not work. While people have a rough
                   understanding of what a $ meal is versus a $$$$ meal
@@ -542,15 +571,15 @@
           <div class="row">
             <div class="twelve columns">
               <div class="four columns">
-                <img src="images/visual_designs/pricing_daily.png" class="pricing_image" alt="image">
+                <img src="images/visual_designs/pricing_daily.png" class="u-full-width" alt="image">
                 <p class="caption">Search filters with daily pricing</p>
               </div>
               <div class="four columns">
-                <img src="images/visual_designs/pricing_monthly.png" class="pricing_image" alt="image">
+                <img src="images/visual_designs/pricing_monthly.png" class="u-full-width" alt="image">
                 <p class="caption">Search filters with monthly pricing</p>
               </div>
               <div class="four columns">
-                <img src="images/visual_designs/pricing_monthly_adjusted.png" class="pricing_image" alt="image">
+                <img src="images/visual_designs/pricing_monthly_adjusted.png" class="u-full-width" alt="image">
                 <p class="caption">The price range can be adjusted with a swipe></p>
               </div>
             </div>
@@ -563,13 +592,15 @@
         <div class="container">
           <div class="row">
             <div class="twelve columns">
-              <h3>Visual Design</h3>
-              <h4>Branding</h4>
-              <p><strong>The name:</strong> After many iterations, I elected to
+              <div class="case-study-subsection">
+                <h3>Visual Design</h3>
+                <h4>Branding</h4>
+                <p class=bold>>The name:</p><p>After many iterations, I elected to
               use the name Gowork for this app. It was a nice visual play on
               “Cowork”, and the imperative of the “go” captured and underlined
               that this was an app to enable people to leave their homes to go
               work.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -579,16 +610,12 @@
           <div class="row">
             <div class="twelve columns">
               <div class="one-third">
-                <img src="images/branding/word_association.png" class="u-one-half-width" alt="image">
+                <img src="images/branding/early_logo_drawing.png" class="u-one-half-width" alt="image">
+                <p class="caption">Very early sketches and brainstorming around the logo</p>
               </div>
-              <br>
               <div class="one-third">
-                <img src="images/branding/finding_gowork.png" class="u-one-half-width" alt="image">
-              </div>
-              <br>
-              <div class="one-third">
-                <img src="images/branding/final_gowork_name.png" class="u-one-half-width" alt="image">
-              </div>
+                <img src="images/branding/gowork_logo_final.png" class="u-one-half-width" alt="image">
+                <p class="caption">The final logo</p>
             </div>
           </div>
         </div>
@@ -597,36 +624,42 @@
           <div class="container">
             <div class="row">
               <div class="twelve columns">
-              <p><strong>Color scheme:</strong> Blue is famously associated with
-              business, and I chose a lighter, brighter blue to underscore that
-               this app enables a new, modern way of getting business done. I
-               added a complimentary teal as an accent and a strong contrasting
-               red to be a call-to-action.</p>
-               <img src="images/branding/color_pallet_gowork.png" class="u-one-third-width" alt="image">
-              <p><strong>Typeface:</strong> I chose Rubik because as a
-              san-serif with it’s rounded corners it was highly readable even
-              on a smaller screen, which is the primary screen people were
-              going to use to view this app. It offers 5 weight styles which
-              made it easy to create a visually distinctive type hierarchy
-              (see below image):</p>
+                <div class="case-study-sub-subsection-bottom">
+                  <p><strong>Color scheme:</strong> Blue is famously associated with
+                    business, and I chose a lighter, brighter blue to underscore that
+                    this app enables a new, modern way of getting business done. I
+                    added a complimentary teal as an accent and a strong contrasting
+                    red to be a call-to-action.</p>
+                    <img src="images/branding/color_pallet_gowork.png" class="u-one-third-width" alt="image">
+                    <p><strong>Typeface:</strong> I chose Rubik because as a
+                      san-serif with it’s rounded corners it was highly readable even
+                      on a smaller screen, which is the primary screen people were
+                      going to use to view this app. It offers 5 weight styles which
+                      made it easy to create a visually distinctive type hierarchy
+                      (see below image):</p>
               <img src="images/branding/Text_hierarchy_gowork.png" class="u-max-full-width" alt="image">
+            </div>
+          <div class="case-study-subsection">
               <h3>Final Design</h3>
 <!--Put images here!-->
-              <h4>Prototype</h4>
-              <p>As a final deliverable, I built a prototype of the app using
-              Flinto. Using Flinto allowed me to design interactions for users
-              as they went selected different screens and features.
-              <br>
-              <p>I asked users to complete the following tasks</p>
-              <ol>
-                <li>Create an account</li>
-                <li>Search for a coworking space</li>
-                <li>Favorite their coworking space</li>
-                <li>Write a review of the space</li>
-                <li>Delete their review</li>
-              </ol>
-              <p>Results showed that users were able to complete the assigned
-              tasks without confusion </p>
+                <div class="case-study-sub-subsection">
+                  <h4>Prototype</h4>
+                  <p>As a final deliverable, I built a prototype of the app using
+                    Flinto. Using Flinto allowed me to design interactions for users
+                    as they went selected different screens and features.
+                <br>
+                <p>I asked users to complete the following tasks</p>
+                  <ol>
+                    <li>Create an account</li>
+                    <li>Search for a coworking space</li>
+                    <li>Favorite their coworking space</li>
+                    <li>Write a review of the space</li>
+                    <li>Delete their review</li>
+                  </ol>
+                <p>Results showed that users were able to complete the assigned
+                  tasks without confusion </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

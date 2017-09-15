@@ -1,7 +1,12 @@
 
 section.case-study-hero {
-padding: 5rem 0 15rem 4.66666666667%;
+padding: 5rem 0 5rem 4.66666666667%;
 margin: 1rem 0 5rem;
+}
+
+section.case-study-hero-images {
+  padding: 5rem 0 15rem 4.66666666667%;
+  margin: 1rem 0 5rem
 }
 
 @media (min-width: 550px) {
@@ -33,6 +38,19 @@ margin: 1rem 0 5rem;
   padding: 5rem 0 10rem;
 }
 
+.case-study-subsection {
+  margin: 3rem 0rem 6rem;
+  padding: 2rem 0rem 2rem;
+}
+
+.case-study-sub-subsection {
+  margin: 3rem 0 6rem;
+}
+
+.case-study-sub-subsection-bottom {
+  margin: 0 0 6rem;
+}
+
 .case-study-full-column {
   margin: 0 10px 0;
 }
@@ -40,19 +58,9 @@ margin: 1rem 0 5rem;
 
 .spotlight {
   background-color: rgba(252,203,74,.5);
+  padding: 5rem 0 10rem;
 }
 
-.spotlight .pricing_image {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  border-width: medium;
-  border-color: #0D0F0B;
-}
-
-.case-study-body .spotlight .u-full-width {
-
-}
 /*
 img.u-full-width {
   min-width: 200px;
