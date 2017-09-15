@@ -448,6 +448,7 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
 th,
 td {
   padding: 12px 15px;
@@ -478,11 +479,26 @@ tr:nth-child(even) {background-color:rgba(252,203,74,.2)}
 tr:nth-child(odd) {background-color:rgb(252,203,74)}
 
 table.no-outline {
-  vertical-align: baseline;
-  margin-left: 10px;
-  margin-right: 10px;
+  display: block;
+  margin: auto;
   border-style: none;
   background-color: inherit;
+}
+
+table.no-outline,
+tr:nth-child(even) {
+  background-color: rgba(95,105,119,.1);
+  padding: 2rem 3rem 3rem;
+}
+tr:nth-child(odd) {
+  background-color: rgba(95,105,119,.1);
+  padding: 2rem 3rem 3rem;
+  }
+
+table.no-outline,
+  td {
+  background-color: rgba(95,105,119,.1);
+  padding: 2rem 3rem 3rem;
 }
 
 
