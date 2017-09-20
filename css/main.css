@@ -250,6 +250,7 @@ p.bold {
   z-index: 1;
 }
 
+
 @media (min-width: 550px) {
 .navbar .logo {
   height: 25px;
@@ -258,7 +259,7 @@ p.bold {
   padding: 0%, 2.33%, 0%;
   }
 
-.navbar .two.columns {
+.navbar .one.column {
   text-align: right;
   }
 }
@@ -267,12 +268,14 @@ p.bold {
   .navbar .logo {
     height: 25px;
     width: 132px;
+    padding: 0 0 10px;
     display:block;
     margin:auto;
   }
 
-  .navbar .two.columns {
+  .navbar .one.column {
     text-align: center;
+    padding: 10px 0 0;
   }
 }
 section.footer {
@@ -288,11 +291,16 @@ a {
 
 a.underline {
   text-decoration: underline;
+  text-decoration-color: #FCCB4A;
+  font-style: italic;
 }
 
 a:hover {
-  color: #5F6977;
+  color: #0D0F0B;
   text-decoration: underline;
+  text-decoration-color: #FCCB4A;
+  font-weight: 600;
+
 }
 
 a:active {

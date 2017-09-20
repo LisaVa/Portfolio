@@ -26,7 +26,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="images/myfavicon.png">
 
 </head>
 <body>
@@ -36,22 +36,22 @@
   <!-- Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <nav class="navbar"> <!-- nav bar -->
-      <div class="container">
-        <div class="row">
-          <div class="eight columns">
-            <a href="index.html" class="logo">
-              <img src="images/Logo_white.png" alt="Lisa Vance" class="logo">
-            </a>
-          </div>
-          <div class="two columns">
-            <a href="aboutme.html" class="navbar-link">About</a>
-          </div>
-          <div class="two columns">
-            <a href="mailto:elv2108@gmail.com" class="navbar-link">Contact</a>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="ten columns">
+          <a href="index.html" class="logo">
+            <img src="images/Logo_white.png" alt="Lisa Vance" class="logo">
+          </a>
+        </div>
+        <div class="one column">
+          <a href="aboutme.html" class="navbar-link">About</a>
+        </div>
+        <div class="one column">
+          <a href="mailto:elv2108@gmail.com" class="navbar-link">Contact</a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
   <!-- hero
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -64,7 +64,10 @@
             <p class="large_style">Designing and prototyping a location-based app that users to
             identify and compare coworking spaces in New York City<p>
             <h5>4 weeks | Concept Project</h5>
-            <p class="bold">Research | Information Architecture | Visual Design | Prototyping</h5>
+            <p class="bold"><a href="#research">Research</a> |
+              <a href="#information_architecture">Information Architecture</a> |
+              <a href="#visual_design">Visual Design</a> |
+              <a href="#prototyping">Prototyping</a></h5>
           </div>
         </div>
       </div>
@@ -113,8 +116,9 @@
               to only one coworking option.
             </p>
             <br>
-            <img src="images/coworking_map.png" alt="Coworking map" class="u-full-width">
-            <p class= "caption">	A map of coworking spaces in NYC, from <a href= "//newworker.co/nyc-coworking-map"> The New Worker</a>.
+            <img src="images/coworking_nyc_map2.png" alt="Coworking map" class="u-full-width">
+            <p class= "caption">	A map of coworking spaces in NYC, from
+              <a href= "//newworker.co/nyc-coworking-map" class="underline"> The New Worker</a>.
             </p>
             <br>
             <p>Given the success of platforms that help locate and compare space
@@ -235,19 +239,19 @@
         <div class="row">
           <div class="three columns">
             <img src ="images/Research icon.png" class="icon" alt="icon">
-            <h5 class="icon-caption">Research</h5>
+            <h5 class="icon-caption"><a href="#research">Research</a></h5>
           </div>
           <div class="three columns">
             <img src ="images/information_arc_icon.png" class="icon" alt="icon">
-            <h5 class="icon-caption">Information Architecture</h5>
+            <h5 class="icon-caption"><a href="#information_architecture">Information Architecture</a></h5>
           </div>
           <div class="three columns">
             <img src="images/visual_design_icon.png" class="icon" alt="icon">
-            <h5 class="icon-caption">Visual Design</h5>
+            <h5 class="icon-caption"><a href="#visual_design">Visual Design</a></h5>
           </div>
           <div class="three columns">
             <img src ="images/prototype_icon.png" class="icon" alt="icon">
-          <h5 class="icon-caption">Prototype</h5>
+          <h5 class="icon-caption"><a href="#prototyping">Prototype</a></h5>
           </div>
         </div>
       </div>
@@ -259,20 +263,18 @@
         <div class="row">
           <div class="twelve columns">
             <div class="case-study-subsection">
-            <h3 class="underline">Research</h3>
-            <p>I conducted extensive research on the freelance market and
-              coworking spaces in NYC to support the development of this app.
-            </p>
+            <h3 id="research" class="underline">Research</h3>
             <div class="case-study-sub-subsection">
               <h4>Secondary Research</h4>
               <p>The first step was to look at what coworking spaces in New York
-              city offer their users. To do this, I assessed  4 coworking
-              options here by Price, Location, and Amenities. I selected a major
+              city offer their users. To do this, I assessed 4 coworking
+              options by Price, Location, and Amenities. I selected a major
                chain/name brand site (WeWork), a smaller, lesser known chain
                (Spacious), and two individual sites (one in Manhattan, one in
                Brooklyn) to keep this data reprsentative. You can see my
                assessment
-               <a href=//drive.google.com/open?id=1i7Bx36Fvt5TOgpLRP2iVFGs3_aF2FDJAtGRuUgYF7r4here.>here.</a>
+               <a href=//drive.google.com/open?id=1i7Bx36Fvt5TOgpLRP2iVFGs3_aF2FDJAtGRuUgYF7r4here.
+                class= "underline">here.</a>
              </p>
              <p>
                To get a sense of what similar apps in other verticals have
@@ -338,6 +340,7 @@
                 </p></td>
               </tr>
             </table>
+            <p class="caption">*Not applicable building this app.
           </div>
           <div class="case-study-sub-subsection">
             <h4>Survey</h4>
@@ -345,7 +348,7 @@
               to build a framework for my primary research. I was well versed in
                what features coworking spaces offered, where they were located,
                 and the multitude of pricing plans they leveraged, but I did
-                not know how users prioritized this. Before I built my app, I
+                not know how users prioritized these. Before I built my app, I
                 needed to know what users most wanted to know about coworking.
                 Accordingly, I built a survey to answer the following questions:
               </p>
@@ -430,7 +433,8 @@
             <h4>Personas</h4>
             <p>After gathering this information from the survey respondents,
                I condensed the most popular responses into
-               <a href="//drive.google.com/open?id=0BzNVPXAu4MtWaURNcjFzM2JMdUU">three personas</a>.</p>
+               <a href="//drive.google.com/open?id=0BzNVPXAu4MtWaURNcjFzM2JMdUU" class="underline">
+                 three personas</a>.</p>
             <img src="images/Adrian_B_persona.png" class="u-max-full-width">
             <p class="caption">User persona for minimum viable product
             <p>Adrian B. is the primary guide for the first version (minimum
@@ -442,7 +446,7 @@
           </div>
         </div>
         <div class="case-study-subsection">
-          <h3 class="underline">Information Architecture</h3>
+          <h3 id="information_architecture" class="underline">Information Architecture</h3>
             <div class="case-study-sub-subsection">
               <h4>User Stories</h4>
                 <p>The initial list of User Stories took into account all my
@@ -487,14 +491,10 @@
                 </div>
                 <div class="case-study-sub-subsection">
                   <h4>User Flows</h4>
-                  <p>After creating the user stories it was time to map out the <a href="https://drive.google.com/open?id=1NYFIF92vNKVichZq7ImzQ3ZIbHL9aj7CbBLdVxLCIjs"> user
+                  <p>After creating the user stories it was time to map out the <a href="https://drive.google.com/open?id=1NYFIF92vNKVichZq7ImzQ3ZIbHL9aj7CbBLdVxLCIjs" class="underline"> user
                     flows:</a></p>
-                    <img src="images/user_flows/userflow_review_space.png" class="u-max-full-width">
-                    <p class="caption">Sample user flow</p>
-                    <img src="images/user_flows/userflow_save_space.png" class="u-max-full-width">
-                    <p class="caption">Sample user flow</p>
-                    <img src="images/user_flows/userflow_search_from_landing.png" class="u-max-full-width">
-                    <p class="caption">Sample user flow</p>
+                    <img src="images/user_flows/new_user_save_space.png" class="u-max-full-width">
+                    <p class="caption">Flow demonstrating what would happen to a new user (with no account) searching and saving coworking spaces.
                     <p>It was important to me that those who opt to skip making an
                       account still be able to search and filter for coworking spaces.
                       The benefits of having an account are being able to save your
@@ -529,15 +529,15 @@
                 <p>Survey results indicated that pricing was by far the most
                   important consideration for users when choosing a Coworking
                   space. However, pricing plans vary across coworking spaces,
-                  often depending on how often a user will use the space,
-                  whether they are reserving a seat, and whether they are
-                  signing up on a short-term or long term basis.</p>
+                  sometimes depending on how often a user will use the space,
+                  whether they are reserving a seat, whether they are
+                  signing up on a short-term or long term basis or other factors.</p>
                   <p>My initial solution was to look at the relative overall
                     prices of each coworking space and use a scale similar to
                     Yelp’s dollar sign feature to help users indicate whether
                     they were looking on the lower end or the higher end of the
                     pricing spectrum:</p>
-                  <img src="images/wireframes/landing_page_dropdown.png" class="u-one-third-width" alt="image">
+                  <img src="images/wireframes/pricing_wireframe.png" class="u-one-half-width" alt="image">
                   <p class="spotlight-text">However, initial user feedback immediately made it clear
                   that this would not work. While people have a rough
                   understanding of what a $ meal is versus a $$$$ meal
@@ -582,7 +582,7 @@
               </div>
               <div class="four columns">
                 <img src="images/visual_designs/pricing_monthly_adjusted.png" class="u-full-width" alt="image">
-                <p class="caption">The price range can be adjusted with a swipe></p>
+                <p class="caption">The price range can be adjusted with a swipe</p>
               </div>
             </div>
           </div>
@@ -595,9 +595,9 @@
           <div class="row">
             <div class="twelve columns">
               <div class="case-study-subsection">
-                <h3 class="underline">Visual Design</h3>
+                <h3 id="visual_design" class="underline">Visual Design</h3>
                 <h4>Branding</h4>
-                <strong>The name:</strong><p>After many iterations, I elected to
+                <p><strong>The name:</strong> After many iterations, I elected to
               use the name Gowork for this app. It was a nice visual play on
               “Cowork”, and the imperative of the “go” captured and underlined
               that this was an app to enable people to leave their homes to go
@@ -641,8 +641,25 @@
                       (see below image):</p>
               <img src="images/branding/Text_hierarchy_gowork.png" class="u-max-full-width" alt="image">
             </div>
-          <div class="case-study-subsection">
-              <h3 class="underline">Final Design</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="case-study-full-column">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <img src="images/final_design.png" class="u-full-width">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="case-study-body">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <div class="case-study-subsection">
+              <h3 id="prototyping" class="underline">Final Deliverable: Prototype</h3>
 <!--Put images here!-->
                 <div class="case-study-sub-subsection">
                   <h4>Prototype</h4>
@@ -659,7 +676,10 @@
                     <li>Delete their review</li>
                   </ol>
                 <p>Results showed that users were able to complete the assigned
-                  tasks without confusion </p>
+                  tasks without confusion. You can try the
+                  <a href="downloads/Gowork_prototype_submission.flinto" class="underline"> prototype </a>here,
+                  using the full <a href="pdfs/Gowork_Usability_Script.pdf" class="underline">usability </a>
+                  script as a guide </p>
               </div>
             </div>
           </div>
