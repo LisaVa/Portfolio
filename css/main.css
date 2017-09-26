@@ -129,7 +129,7 @@ body {
 
 
 /* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Arial, sans-serif;
 }
@@ -191,6 +191,8 @@ h5 { font-size: 1.8rem;
 h6 { font-size: 1.5rem;
   line-height: 1.6;
   letter-spacing: 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(252,203,74);
 }
 
 p {
