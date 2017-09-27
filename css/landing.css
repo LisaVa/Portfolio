@@ -139,16 +139,25 @@ p.bold {
 }
 
 
-.case-study-preview .container .image_wrapper {
-  position: relative;
-  height: 300px;
-}
 
+@media (min-width: 768px) {
 .case-study-preview .container .row .display_image {
+  height: 100%;
   width: 100%;
-  position:absolute;
+  position:relative;
   height: auto;
   bottom: 0;
+  }
+}
+
+@media (min-width: 350px) {
+.case-study-preview .container .row .display_image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  height: auto;
+  bottom: 0;
+}
 }
 
 section.about-me {
