@@ -140,25 +140,12 @@ p.bold {
 
 
 
-@media (min-width: 768px) {
-.case-study-preview .container .row .display_image {
-  height: 100%;
-  width: 100%;
-  position:relative;
-  height: auto;
-  bottom: 0;
-  }
-}
 
-@media (min-width: 350px) {
-.case-study-preview .container .row .display_image {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  height: auto;
-  bottom: 0;
-}
-}
+.case-study-preview .container .row .twelve.columns .seven.columns {
+  background: url(../images/Gowork_case_study_image.png);
+  background-size: cover;
+  }
+
 
 section.about-me {
   padding: 5rem 0 10rem;
