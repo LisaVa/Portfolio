@@ -184,6 +184,10 @@ section.case-study-hero .hero_text {
   padding: 5rem 0 10rem;
 }
 
+.pull-quote {
+  border-left: solid;
+  border-left-color: #FCCB4A;
+}
 
 
 .icon {
