@@ -129,7 +129,7 @@ body {
 
 
 /* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+––––––––––––––––––––––––––––––––––––––––––––––––––
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Arial, sans-serif;
 }
@@ -282,12 +282,17 @@ p.bold {
 }
 section.footer {
   background-color: rgba(13,15,11,.8);
-  text-align:center;
+  text-align: left;
 }
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #0D0F0B;
+  text-decoration: none;
+}
+
+a.white {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -302,7 +307,10 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: #FCCB4A;
   font-weight: 600;
+}
 
+a.white:hover {
+  color: #ffffff;
 }
 
 a:active {

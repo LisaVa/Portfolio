@@ -19,7 +19,6 @@ h2 {
   line-height: 1.25;
   letter-spacing: -.1rem;
   padding: 1rem 0rem 2rem;
-  margin: 3rem 0 2rem
 }
 
 h3 {
@@ -119,104 +118,77 @@ p.bold {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .hero {
-  margin-left: 17.3333333333%;
   margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
 }
 
 .case-studies {
-  margin: 0 2.33% 0;
   padding: 5rem 0 10rem;
-  background-color: rgba(188,194,202,.5);
-
+  background-color: #ffffff;
 }
-
-.section-title {
-  padding: 30px, 0px, 20px;
+//*
+.case-studies .section-title {
+  padding: 30px 0px 20px;
 }
-
+*//
 .case-study-preview {
   padding: 3em, 0em, 3em;
 }
 
-
-.case-study-preview .container .image_wrapper {
-  position: relative;
-  height: 300px;
+.case-study-preview img {
+  padding: 0px;
 }
 
-.case-study-preview .container .row .display_image {
-  width: 100%;
-  position:absolute;
-  height: auto;
-  bottom: 0;
+.case-study-title {
+  background-color: rgb(95,105,119);
+  text-align: left;
 }
 
-section.about-me {
-  padding: 5rem 0 10rem;
-
-}
-
-/*
-
-@media (min-width: 1024px) {
-.case-study-preview .container .row .display_image {
-  width: 100%;
+@media (min-width: 550px) {
+.case-study-title h3 {
+  margin: 0px;
+  padding: 20px 0 30px;
+  color: #ffffff;
   }
 }
 
-@media (min-width: 768px) {
-.case-study-preview .container .row .display_image {
-  width: 100%;
-  margin-top: 20%;
-  margin-bottom: 10%;
+@media (min-width: 350px) and (max-width: 549px) {
+.case-study-title h3 {
+  margin: 0px;
+  padding: 20px 0 10px;
+  color: #ffffff;
   }
 }
 
-@media (min-width: 320px) {
-.case-study-preview .container .row .display_image {
-  width: 100%;
-  margin-top: 20%;
-  margin-bottom: 10%;
+@media (min-width: 550px) {
+.case-study-title h5 {
+  margin: 0px;
+  padding: 20px 0 30px;
+  color: #ffffff;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 549px) {
+.case-study-title h5 {
+  margin: 0px;
+  padding: 0 0 20px;
+  color: #ffffff;
   }
 }
 
 
 
-.display_image {
-  height: 300px;
-  width: 620px;
-  display: block;
-  margin: auto
+/* About me
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about-me {
+  background-color: rgba(95, 105, 119, 0.1);
 }
 
-@media (min-width: 950px) and (max-width: 1100px) {
-  .display_image {
-  height: 255px;
-  width: 527px;
+.about-me .section-title {
+  margin: 3rem 0 0;
 }
-}
-
-@media (min-width: 350px) and (max-width: 949px) {
-  .display_image {
-  height: 180px;
-  width: 372px;
-  align-items: baseline;
-  }
-}
-*/
 
 .about-me-body {
-  margin-left: 17.3333333333%;
-}
-
-.about-me-contact {
-  list-style-type: none;
-   text-align: center;
-   display:run-in;
-
-}
-.about-me-links {
-  padding: 0%;
-  margin: 0%;
+  margin: -1.5rem 0 0;
+  padding: 0 0 10rem;
 }
