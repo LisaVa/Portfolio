@@ -280,9 +280,28 @@ p.bold {
     padding: 10px 0 0;
   }
 }
+
+@media (min-width: 768px) {
 section.footer {
   background-color: rgba(13,15,11,.8);
-  text-align: left;
+  display: block;
+  }
+
+  .footer .six.columns {
+    text-align: left;
+  }
+  
+  .footer .two.columns {
+    text-align: right;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+section.footer {
+  background-color: rgba(13,15,11,.8);
+  text-align: center;
+  display: block;
+  }
 }
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
