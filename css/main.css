@@ -593,7 +593,9 @@ blockquote {
     font-weight: 400;
     padding: 1rem;
     margin: 2rem 0 2.5rem;
-    border-left: rgb(252,203,74) 3px solid;
+    border-left-style: solid;
+    border-left-color: rgb(252,203,74);
+    border-left-width: 3px;
 }
 
 
