@@ -290,7 +290,7 @@ section.footer {
   .footer .six.columns {
     text-align: left;
   }
-  
+
   .footer .two.columns {
     text-align: right;
   }
@@ -318,14 +318,14 @@ a.white {
 a.underline {
   text-decoration: underline;
   text-decoration-color: #FCCB4A;
-  font-style: italic;
+  font-weight: bold;
 }
 
 a:hover {
   color: #0D0F0B;
   text-decoration: underline;
   text-decoration-color: #FCCB4A;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 a.white:hover {
@@ -338,7 +338,11 @@ a:active {
 
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+img.border {
+  border: rgb(95,105,119) .5px solid;
+  padding: 0;
+  margin: inherit;
+}
 
 
 /* Buttons
@@ -468,7 +472,7 @@ label > .label-body {
 ul {
   list-style-type: disc;
   font-size: 1.6rem;
-  margin: 2rem 0 1.5rem 8.66666666667%%;
+  margin-left: 20px;
 
 }
 
@@ -476,7 +480,7 @@ ol {
   list-style: decimal;
   font-size: 1.6rem;
   font-weight: 600;
-  margin: 2rem 0 1.5rem 8.66666666667%;
+  margin-left: 20px;
 
 }
 ol, ul {
@@ -587,9 +591,9 @@ blockquote {
     font-size: 2rem;
     font-style: italic;
     font-weight: 400;
-    padding-left: 1rem;
-    margin-left: 8.66666666667%;
-    margin-bottom: 2.5rem;
+    padding: 1rem;
+    margin: 2rem 0 2.5rem;
+    border-left: rgb(252,203,74) 3px solid;
 }
 
 
