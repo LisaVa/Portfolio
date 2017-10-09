@@ -555,7 +555,14 @@ td {
   padding: 12px 15px;
 }
 
+td,th {
+  padding: 12px 15px;
+
+}
+
 td.row_title {
+  text-align: center;
+  padding: 10px 15px;
 
 }
 table.no-outline {

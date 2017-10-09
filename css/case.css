@@ -114,7 +114,32 @@ p.bold {
   font-weight: 600;
 }
 
-/* Section formatting
+/* Container-large
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container-large {
+  position: relative;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container-large {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container-large {
+    width: 80%; }
+}
+
+/* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 section.case-study-hero {
@@ -126,8 +151,6 @@ section.case-study-hero-images {
   padding: 5rem 0 15rem 4.66666666667%;
   margin: 1rem 0 0;
   background-color: rgb(13,146,162);
-
-
 }
 
 section.case-study-hero .hero_text {

@@ -162,8 +162,9 @@ p.bold {
 
 @media (min-width: 550px) {
 .case-study-title h4 {
+  margin-right: 0px;
   padding: 10% 10px;
-  text-align: center;
+  text-align: right;
   color: #ffffff;
   }
 }
