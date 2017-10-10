@@ -1,0 +1,264 @@
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+  padding: 2rem, 0rem, 3rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+  padding: 1rem 0rem 2rem;
+  margin: 3rem 0 2rem
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+  padding: 1rem 0rem 1rem;
+  margin: 4rem 0rem 0rem;
+}
+
+h3.underline {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(252,203,74);
+  padding: 1rem 0rem 1rem;
+  margin: 4rem 0rem 2rem;
+}
+
+h4 { font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+  padding: 3rem 0rem 0rem;
+
+}
+
+h5 { font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  padding: 1rem 0rem 1rem;
+  margin: 0;
+}
+
+h6 { font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(252,203,74);
+}
+
+p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+p.white {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+p.date {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+p.caption {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+p.large_style {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: left;
+}
+
+p.italic {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p.bold {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* Container-large
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container-large {
+  position: relative;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container-large {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container-large {
+    width: 80%; }
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+section.case-study-hero {
+padding: 5rem 0 5rem 4.66666666667%;
+margin: 1rem 0 5rem;
+}
+
+section.case-study-hero-images {
+  padding: 5rem 0 15rem 4.66666666667%;
+  margin: 1rem 0 0;
+  background-color: rgb(13,146,162);
+}
+
+section.case-study-hero .hero_text {
+  background-color: rgba(95,105,119,.1);
+}
+
+@media (min-width: 550px) {
+.case-study-body {
+  margin-left: 13.3333333333%;
+  margin-right: 13.3333333333%;
+  }
+}
+
+@media (max-width: 350px) {
+  .case-study-body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.case-study-section-grey {
+  background-color: rgba(95,105,119,.1);
+  padding: 5rem 0 10rem;
+}
+
+.case-study-section-black {
+  background-color: rgba(13,15,11,.1);
+  padding: 5rem 0 10rem;
+}
+
+.case-study-section-white {
+  background-color: #ffffff;
+  padding: 5rem 0 10rem;
+}
+
+.case-study-subsection {
+  margin: 3rem 0rem 6rem;
+  padding: 2rem 0rem 2rem;
+}
+
+.case-study-sub-subsection {
+  margin: 3rem 0rem 6rem;
+}
+
+.case-study-sub-subsection-bottom {
+  margin: 0 0 6rem;
+}
+
+.case-study-full-column {
+  margin: 0 10px 0;
+}
+
+
+.spotlight {
+  background-color: rgba(252,203,74,.15);
+  padding: 5rem 0 10rem;
+}
+
+
+
+.icon {
+  height: 8rem;
+  padding: 1rem;
+  display: block;
+  margin: auto;
+}
+
+.icon-caption {
+  text-align: center;
+}
+
+/* tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table.gray {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1rem;
+}
+
+table.gray,
+tr:nth-child(even) {background-color:rgba(95,105,119,.2)}
+tr:nth-child(odd) {background-color:rgba(95,105,119,.4)}
+
+td {
+  padding: 12px 20px;
+  border: 1px solid white;
+}
+
+td,th {
+  padding: 12px 15px;
+
+}
+
+td.row_title {
+  text-align: center;
+  padding: 10px 30px 10px;
+
+}
+table.no-outline {
+  display: block;
+  margin: auto;
+  border-style: none;
+  background-color: inherit;
+}
+
+table ol li {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+}

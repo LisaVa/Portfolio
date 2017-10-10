@@ -210,7 +210,6 @@ section.case-study-hero .hero_text {
 }
 
 
-
 .icon {
   height: 8rem;
   padding: 1rem;
@@ -220,4 +219,39 @@ section.case-study-hero .hero_text {
 
 .icon-caption {
   text-align: center;
+}
+/* tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table.small_dark_yellow {
+  margin-left: 17.3333333333%;
+  margin-right: 17.3333333333%;
+  padding: 1rem;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(13,15,11);
+}
+
+table.small_dark_yellow,
+tr:nth-child(even) {background-color:rgba(252,203,74,.2)}
+tr:nth-child(odd) {background-color:rgb(252,203,74)}
+
+td {
+  padding: 12px 15px;
+}
+
+td,th {
+  padding: 12px 15px;
+
+}
+
+td.row_title {
+  text-align: center;
+  padding: 10px 15px;
+
+}
+table.no-outline {
+  display: block;
+  margin: auto;
+  border-style: none;
+  background-color: inherit;
 }
