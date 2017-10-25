@@ -136,7 +136,7 @@ p.bold {
 }
 
 .case-study-title {
-  background-color: rgb(95,105,119);
+  background-color: rgba(13,15,11,.2);
   text-align: left;
 }
 
@@ -144,7 +144,7 @@ p.bold {
 .case-study-title h3 {
   margin: 0;
   padding: 20px 0 0 10px;
-  color: #ffffff;
+  color: rgb(13,15,11);
   }
 }
 
@@ -152,7 +152,7 @@ p.bold {
 .case-study-title h3 {
   margin: 0px;
   padding: 20px 0 0 10px;
-  color: #ffffff;
+  color: rgb(13,15,11);
   }
 }
 
@@ -161,7 +161,7 @@ p.bold {
   margin-right: 0px;
   padding: 10% 10px;
   text-align: right;
-  color: #ffffff;
+  color: rgb(13,15,11);
   }
 }
 
@@ -170,7 +170,7 @@ p.bold {
   margin: 0px;
   padding: 0 0 20px 10px;
   text-align: left;
-  color: #ffffff;
+  color: rgb(13,15,11);
   }
 }
 
@@ -178,7 +178,7 @@ p.bold {
 .case-study-title p {
   margin: 10px 0 10px 10px;
   padding: 0;
-  color: #ffffff;
+  color: rgb(13,15,11);
   }
 }
 
@@ -186,7 +186,7 @@ p.bold {
 .case-study-title p {
   margin: 10px 0 10px 10px;
   padding: 0;
-  color: #ffffff;
+  color: rgb(13,15,11);
   }
 }
 

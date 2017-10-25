@@ -150,11 +150,11 @@ margin: 1rem 0 5rem;
 section.case-study-hero-images {
   padding: 5rem 0 15rem 4.66666666667%;
   margin: 1rem 0 0;
-  background-color: rgb(13,146,162);
+  background-color: rgba(95,105,119,.5);
 }
 
 section.case-study-hero .hero_text {
-  background-color: rgba(95,105,119,.1);
+  background-color: rgba(13,15,11,.2);
 }
 
 @media (min-width: 550px) {
