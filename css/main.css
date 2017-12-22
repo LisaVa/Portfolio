@@ -614,7 +614,7 @@ blockquote {
     margin: 2rem 0 2.5rem;
     border-left-style: solid;
     border-left-color: rgb(95,105,119);
-    border-left-width: 3px;
+    border-left-width: 4px;
     overflow: hidden;
 }
 
