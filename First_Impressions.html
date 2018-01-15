@@ -224,12 +224,109 @@
           </div>
           <div class="case-study-sub-subsection">
             <h4>User Research</h4>
-              <p>
+              <p>From my benchmark study I had identified common features
+                consistently listed in the book details of my competitors:
               </p>
+              <blockquote class="offset-by-one column eleven columns">
+                <ul>
+                  <li>Attributes (e.g. Author Signed, Dust Jacket, Illustrations)
+                  </li>
+                  <li>Condition
+                  </li>
+                  <li>Binding
+                  </li>
+                  <li>Publishing info (publishing house, edition/impression,
+                    year printed)
+                  </li>
+                </ul>
+              </blockquote>
+              <p>To find out how users would prioritize these features, I posted
+                them to a SubReddit on Reddit devoted to rare books, and asked
+                the members to rank them in order from most to least important.
+                Most users told me that, if price was not a consideration, they
+                would first check publishing information to make sure that this
+                was the right book, and then the book’s condition was the most
+                important factor in deciding whether that particular book was
+                worth the purchase. Attributes were a nice to have, but would not
+                outweigh the book’s condition or make a relatively common edition
+                more valuable in most circumstances.
+              </p>
+              <blockquote class="offset-by-one column eleven columns">
+                <p><strong>Book collectors Prioritization:</strong></p>
+                <ol>
+                  <li>Publishing info (is this the book I want?)
+                  </li>
+                  <li>Condition (how valuable is this particular copy of that book)
+                  </li>
+                  <li>Binding
+                  </li>
+                  <li>Attributes (Cool! This one is signed)
+                  </li>
+                  <li>Binding(??)
+                  </li>
+                </ol>
+              </blockquote>
+              <p>Most of these book collectors considered the category of “binding,”
+                to be redundant or largely unimportant. A serious book collector
+                already knows what the binding of a particular book should be from
+                the publication date (e.g. a first edition of Fahrenheit 451 from
+                1953 is a paperback because the book was first circulated as a paperback).
+                While some people collect books with specialty bindings, such as tooled
+                leather, this more of a niche collection market.
+              </p>
+              <p>Most importantly, I got my education in the importance of
+                dustjackets from this user group. “A book without a dustjacket
+                that should have one is extremely lacking in condition from the
+                start and usually instantly loses 70-80% of its value,” one user
+                told me.
+              </p>
+              <blockquote class="offset-by-one column eleven columns">"A book without
+              dustjacket that should have one is extremely lacking in condition from the
+              start and usually instantly loses 70-80% of its value.”
+            </blockquote>
+              <p>Finally, I got some feedback from these book collectors about what
+                their ideal book websites would look like, which primarily boiled
+                down to being able to easily sort and filter for the book
+                specifications they wanted. “Sortable by book condition/jacket
+                condition would also be awesome. So condition fields have to be
+                defined, something along F, NF, VG+, VG, VG-, G+, G, Fair. Also,
+                check boxes and sortable attributes on book club and ex-library
+                would be desirable as well.”
+              </p>
+
           </div>
             <div class="case-study-sub-subsection">
             <h4>Personas</h4>
-            <p></p>
+            <p>Using both my market research and the primary user research from
+              reddit, I created three user personas to guide my information architecture:
+            </p>
+            <blockquote class="offset-by-one column eleven columns">
+              <ul>
+                <li>Edward Rosier, a professional rare book/artifact dealer
+                </li>
+                <li>Julia Packet, a book collector
+                </li>
+                <li>Madeleine Hanna, a casual shopper trying to find a nice book for a friend
+                </li>
+              </ul>
+            </blockquote>
+            <p>Edward represents a distillation of the users on reddit--a professional
+              collector who would use the site to gauge market prices for books
+              and occasionally buy something he thought was underprice or could
+              get a better deal for elsewhere.
+            </p>
+            <p>Julia, a book collector, is probably the most important user for this a
+              site--someone who would buy things, but whose priorities were a
+              mix of a rare book expert and a normal ecommerce shopper.
+            </p>
+            <img src="images/First_Impressions/FI_User_Persona.png" class="u-max-full-width" alt="">
+            <p class="caption">The User Persona of Julia Packet, the most important
+             persona for site planning purposes</p>
+            <p>Madeleine is largely representative of normal ecommerce user
+              behavior; she wants something that looks nice, doesn’t cost too
+              much, and is easy to buy. I used these personas to guide the
+              information architecture of the site.
+            </p>
           </div>
         </div>
         </div>
@@ -237,13 +334,51 @@
         <div class="case-study-subsection">
           <h3 id="information_architecture" class="underline">Information Architecture</h3>
             <div class="case-study-sub-subsection">
-              <h4>User Stories, User Flows and Site Map</h4>
-              <p>
+              <h4>User Stories and User Flows</h4>
+              <p>I referred to the user personas during the development of user flows.
+                I prioritized specific flows based on which user personas would value
+                or utilize the feature. They can be viewed in their entirety here.
+                I then used these user stories to finalize my user flows.
+              </p>
+              <p>It was particularly important to me that users be able to purchase
+                books from the site without creating accounts.</p>
+              <img src ="images/First_Impressions/FI_User_Flow.png" class="u-full-width">
+              <p class="caption">Sample user flow</p>
+              <p>My research indicated that requiring users to create an account
+                is one of the most frequently cited reasons shoppers abandon their
+                carts (along with unexpected additional fees and a long checkout
+                process).
               </p>
             </div>
             <div class="case-study-sub-subsection">
-              <h4>Wireframes</h4>
-              <p>
+              <h4>Site-Map and Wireframes</h4>
+              <p>After creating the flows, I created a site map and the initial
+                wireframes for the site.
+              </p>
+              <p>A particularly difficult problem to determine visual groups for
+                the book details. On any particular book page I needed to have
+                the following information: Title, Author, Edition, Condition
+                Publication Information, Price, Collectable details, Binding, ISBN,
+                Shipping estimate (From browser location), Dustjacket.
+              </p>
+              <p>This is a lot of information to take in. I wanted to break these
+                details down into logical subgroups, to help users easily browse to
+                the information that was most important to them. To help me do that,
+                I created a card sort activity asking 10 participants to group this
+                information. After reviewing the results, and comparing it against
+                the sites I used in my initial benchmark study, I came up with the
+                below groupings:
+              </p>
+              <img src="images/First_Impressions/Book_features.png" class="u-max-full-width">
+              <p>This helped me come up with a few wireframes for the detail page,
+                which would go on to be refined later. The complete list of
+                Wireframes is here.
+              </p>
+              <p>Finally, I took my rough wireframes and put together a very
+                quick prototype for a user to search for a book, select the book,
+                add to their cart, and checkout as a guest without creating an
+                account. These were the bareboned MVP actions, and once I knew
+                they were in place I was ready to start my visual design.
               </p>
             </div>
           </div>
@@ -256,10 +391,113 @@
               <div class="case-study-subsection">
                 <h3 id="visual_design" class="underline">Visual Design</h3>
                 <h4>Branding</h4>
-                <p></p>
+                <p>I knew from very early on that I wanted the name of the
+                  bookstore to be “First Impressions.” Before modern printing
+                  methods, a first impression was a subset of a book’s edition.
+                  It referred directly to how the the press had been manually arranged
+                  to produce those particular copies of a book. If a books initial
+                  printing was for 300 copies, the publisher would print those copies
+                  and then rearrange the press for the next book. If they ran out
+                  of those copies and wanted to print more, they would rearrange
+                  the press and create the second impression. The second run would
+                  still be considered a first edition, but a second impression.
+                  This term is largely antiquated now with modern printing methods,
+                  but would allude to older, historical books, which underscores
+                  their collectability.
+                </p>
+                <p>“First Impressions” was also the original title of Jane Austen’s
+                  “Pride and Prejudice”, which is less significant to the branding
+                  of the store but still a fun literary touch.
+                </p>
+                <p>To bring this name to life, I used IM FELL DW Pica. The Fell
+                  Types were developed by Peter De Walpergen and John Fell for
+                  Fell’s Oxford-based “learned press” in the 17th century. Unsurprisingly,
+                  given the age of the Typeface, it’s design evokes history, and
+                  some of the effects of aging. The edges of the strokes waver visibly,
+                  suggesting the press had been worn down or cut by hand. I’m particularly
+                  partial to the slight nick in the dot of the “i” that prevents
+                  it from being a fully formed oval. The character appears twice in
+                  “First Impressions”, in both words, and creates a nice near symmetry
+                  between them, as well as drawing the viewer’s eye above the cap
+                  height over the other lowercase letters. In the case of “Impressions”,
+                  which is a longer word, this also helps lend some needed visual variation.
+                </p>
               </div>
               <div class="case-study-sub-subsection">
-                <h4>High-Fidelity Mockups</h4>
+                <h4>Typefaces</h4>
+                <p>I went back and forth on which typefaces to use for the header
+                  and body text before settling on Lora and Lato, respectively.
+                  I chose Lora because I wanted the headers to be in a serif font,
+                  so as to be reminiscent books, and printing in general. Lato not
+                  only pairs very well with Lora, it works well on screens even at
+                  smaller sizes and the double-story character “a” and “g” keep the
+                  font reminiscent of serif fonts and classic prints.
+                </p>
+              </div>
+              <div class="case-study-sub-subsection">
+                <h4>Colors</h4>
+                <p>I wanted a color scheme for the site that would evoke a similar
+                  sense of history as IM FELL DW Pica, but would still be visually
+                  appealing and navigable on screens. After looking at different
+                  sites and pictures for inspiration, I ended up relying heavily
+                  the art of Jacques-Louis David. While David as a late 18th and
+                  early 19th century painter certainly brings a sense of history,
+                  I was mainly drawn to his work in this instance because of his
+                  use of reds, blues and browns, which were often similar in shade
+                  and intensity to the bindings of older books.
+                </p>
+              </div>
+              <div class="case-study-sub-subsection">
+                <h4>User Interface</h4>
+                <h5><strong>Homepage: </strong></h5>
+                <p>The homepage needed to have a brief description of the site and
+                  what it does, a prominent search display that demonstrated how users
+                  should best use the site, and some initial content they could browse.
+                </p>
+                <img src ="images/First_Impressions/Landing_page_breakdown.png" class="u-max-full-width">
+                <p>I used the red as my CTA color throughout the site, the blue
+                  for accent color, and the tans and yellows as background on
+                  featured or important information.
+                </p>
+                <p>Throughout the site I highlight authors names in blue. I did
+                  this not only to introduce some variety into a very text heavy
+                  site, but also because author, even more than title, is the best
+                  feedback for users as to which book they’re looking at and whether
+                  it’s the right one. Books can have similar or even the same titles,
+                  and not all users are likely to know the publisher or ISBN of their
+                  book--the user persona Madeleine certainly wouldn’t--so author
+                  is best, fast way to guide users to the right selection.
+                </p>
+                <h5><strong>Search Results
+                </strong></h5>
+                <p>In my original wireframes I utilized a simple list view for
+                  book results, similar to Abebooks, Bibliopolis, and Ebay.
+                  However, it dawned on me that a grid-view result not only
+                  allowed the viewer to see more results at once, it also had a
+                  cleaner, more visually appealing affect that could stand out
+                  strikingly against other rare book sellers.
+                </p>
+                <p>Accordingly I set to restructure the information granted for
+                  each book in the listview, keeping Author, Title, and Price
+                  immediately apparent, and offering Publisher and Condition when
+                  viewers hovered. That would still allow users to quickly scan
+                  for important information, made the page much cleaner overall.
+                </p>
+                <h5><strong>Detail View
+                </strong></h5>
+                <p>I also significantly reworked the detail view of the book.
+                  Though my initial wireframe had called for putting the price
+                  next to the image and the pertinent details and description
+                  underneath, the pricing alone next to the picture looked empty.
+                </p>
+                <p>Instead I pulled all the books publisher information and
+                  individual information up next to the main book picture,
+                  keeping the detailed description alone below. In order to keep
+                  the information visually separated into the categories I’d
+                  determined during the card sort, I utilized extra spacing between
+                  the publisher information and books specific condition, and used
+                  borders above and below the pricing to literally separate it.
+                </p>
               </div>
               </div>
             </div>
