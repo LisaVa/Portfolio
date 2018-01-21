@@ -232,9 +232,53 @@ section.case-study-hero .hero_text {
 .icon-caption {
   text-align: center;
 }
+
+img.gif {
+  border: 1px solid black;
+  padding: 0
+}
+
 /* tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-table.small_dark_yellow {
+table.gray {
+  padding: 1rem;
+  width: 100%;
+}
+
+table.gray,
+tr:nth-child(even) {background-color:rgba(95,105,119,.2)}
+tr:nth-child(odd) {background-color:rgba(95,105,119,.4)}
+
+td {
+  padding: 12px 20px;
+  border: 1px solid white;
+}
+
+td,th {
+  padding: 12px 15px;
+
+}
+
+td.row_title {
+  text-align: center;
+  padding: 10px 30px 10px;
+
+}
+table.no-outline {
+  display: block;
+  margin: auto;
+  border-style: none;
+  background-color: inherit;
+}
+
+table ol li {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* table.small_dark_yellow {
   margin-left: 17.3333333333%;
   margin-right: 17.3333333333%;
   padding: 1rem;
@@ -267,3 +311,4 @@ table.no-outline {
   border-style: none;
   background-color: inherit;
 }
+*/
