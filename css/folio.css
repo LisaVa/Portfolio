@@ -226,6 +226,12 @@ section.case-study-hero .hero_text {
   text-align: center;
 }
 
+img.gif {
+  border: 1px solid black;
+  padding: 0
+}
+
+
 /* tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table.gray {
