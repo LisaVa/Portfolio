@@ -250,7 +250,8 @@ p.bold {
   width: 100%;
   height: auto;
   background-color: #ffffff;
-  padding: 10px 0px;
+  padding: 10px 0px 10px;
+  border-bottom: .5px solid rgba(95, 105, 119, 0.1);
   margin: 0px;
   z-index: 1;
   }
@@ -667,13 +668,27 @@ blockquote {
   padding: 1rem;
 }
 
-.u-one-half-width {
-  max-width: 50%;
-  box-sizing: border-box;
-  display: block;
-  margin: auto;
-  padding: 1rem;
+
+@media (min-width: 300px) and (max-width: 759px) {
+  .u-one-half-width {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+  }
 }
+
+@media (min-width: 760px) {
+  .u-one-half-width {
+    max-width: 50%;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+  }
+}
+
 .u-one-third-width {
   width: 33.33333%;
   box-sizing: border-box;
