@@ -197,12 +197,13 @@ p.bold {
 /* button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
+@media (min-width: 769) {
 .button_yellow,
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  /*
   display: inline-block;
   height: 65px;
   padding: 0 30px;
@@ -219,7 +220,29 @@ input[type="button"] {
   border-radius: 4px;
   border: 1px solid #bbb;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+*/
+  display: inline-block;
+  height: 65px;
+  min-width: 210px;
+  padding: 20px 10px 10px;
+  color: #333;
+  text-align: center;
+  font-family: raleway;
+  font-weight: 300;
+  float: right;
+  line-height: 22px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  */ }
 .button_yellow:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -231,8 +254,9 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #333;
-  border-color: none;
-  background-color: rgb(252,203,72);
+  font-weight: 400;
+  border-color: rgb(252,203,72);
+  background-color: transparent;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -255,6 +279,14 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+}
+
+@media (min-width: 350px) and (max-width: 768) {
+  .button_yellow {
+    float: left;
+    margin: 20px 0px 0px 10px;
+  }
+}
 
 
 
