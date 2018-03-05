@@ -148,7 +148,7 @@ div.sample_project p.large_style {
   div.four.columns.gray {
     background-color: rgb(95,105,119);
     min-height: 320px;
-    padding: 50px 0px 0px;
+    padding: 20px 0px 20px;
   }
   div.eight.columns.project_text {
     background-color: rgba(95,105,119,.1);
@@ -273,7 +273,7 @@ input[type="button"] {
   height: 65px;
   min-width: 210px;
   margin: 15px 0 20px;
-  padding: 20px 10px 10px;
+  padding: 10px 10px 10px;
   color: #333;
   text-align: center;
   font-family: "Raleway";
