@@ -296,43 +296,6 @@ div.sample_project p.large_style {
 
 /* button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-<<<<<<< HEAD
-@media (min-width: 769) {
-.button_yellow,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  /*
-  display: inline-block;
-  height: 65px;
-  padding: 0 30px;
-  color: #333;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box;
-*/
-  display: inline-block;
-  height: 65px;
-  min-width: 210px;
-  padding: 20px 10px 10px;
-  color: #333;
-  text-align: center;
-  font-family: raleway;
-  font-weight: 300;
-  float: right;
-=======
 div.button_wrapper {
   display: inline-block;
   position: relative;
@@ -358,7 +321,6 @@ input[type="button"] {
   font-family: "Raleway", Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
->>>>>>> adding_buttons
   line-height: 22px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -369,13 +331,10 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
+}
 
-  */ }
-<<<<<<< HEAD
 .button_yellow:hover,
-=======
 button.button_yellow:hover,
->>>>>>> adding_buttons
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
