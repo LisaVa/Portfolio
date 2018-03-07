@@ -13,7 +13,18 @@ h1 {
 }
 
 h1.hero_h1 {
+  padding-top: 10px;
+  margin: 0px;
+  font-weight: 700;
+  color: #0B5370
+}
+
+h4.hero {
   padding-top: 200px;
+  font-weight: 400;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 h2 {
@@ -23,6 +34,16 @@ h2 {
   line-height: 1.25;
   letter-spacing: -.1rem;
   padding: 1rem 0rem 2rem;
+}
+
+h2.hero {
+  font-size: 3.5rem;
+  font-weight: 200;
+  text-align: left;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+  padding: 10px 0rem 20px;
+  margin: 0px;
 }
 
 h3 {
@@ -124,7 +145,7 @@ p.bold {
 
 .hero {
   padding-bottom: 150px;
-  background-color: rgba(95, 105, 119, 0.1)
+  background-color: #ffffff;
 }
 
 .sample_project {
@@ -166,6 +187,7 @@ div.sample_project p.large_style {
   img.display_photo_long {
     width: auto;
     max-height: 280px;
+    margin-top: 30px;
   }
 }
 
