@@ -13,7 +13,18 @@ h1 {
 }
 
 h1.hero_h1 {
+  padding-top: 10px;
+  margin: 0px;
+  font-weight: 700;
+  color: #0B5370
+}
+
+h4.hero {
   padding-top: 200px;
+  font-weight: 400;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 h2 {
@@ -23,6 +34,16 @@ h2 {
   line-height: 1.25;
   letter-spacing: -.1rem;
   padding: 1rem 0rem 2rem;
+}
+
+h2.hero {
+  font-size: 3.5rem;
+  font-weight: 200;
+  text-align: left;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+  padding: 10px 0rem 20px;
+  margin: 0px;
 }
 
 h3 {
@@ -99,10 +120,11 @@ p.caption {
 
 p.large_style {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 20px;
   font-style: italic;
   font-weight: 300;
   text-align: left;
+  margin: 10px 0px 30px;
 }
 
 p.italic {
@@ -123,7 +145,85 @@ p.bold {
 
 .hero {
   padding-bottom: 150px;
-  background-color: rgba(95, 105, 119, 0.1)
+  background-color: #ffffff;
+}
+
+.sample_project {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.sample_project p.large_style {
+  margin: 10px 0px 30px;
+  font-style: normal;
+  text-align: center;
+}
+
+@media (min-width: 960px){
+  .sample_project {
+    height: 320px;
+  }
+  .sample_project h3 {
+    margin-top: 50px;
+  }
+  div.four.columns.gray {
+    background-color: rgba(95,105,119,.5);
+    min-height: 320px;
+    padding: 10px 0px 10px;
+    width: 33%;
+  }
+  div.eight.columns.project_text {
+    background-color: rgba(95,105,119,.1);
+    margin: 0px;
+    padding: 0px 30px;
+    min-height: 320px;
+    width: 67%;
+  }
+  img.display_photo_wide {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 30px;
+  }
+  img.display_photo_long {
+    width: auto;
+    max-height: 280px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 959px){
+  .sample_project {
+    max-height: none;
+    margin-bottom: 50px;
+  }
+  .sample_project.container {
+    width: 80%;
+  }
+  div.eight.columns.project_text {
+    width: 100%;
+    background-color: rgba(95,105,119,.1);
+    margin: 0px;
+  }
+  .sample_project h3 {
+    margin-top: 30px;
+  }
+  .sample_project p.large_style {
+    padding: 0px 10px 0px;
+  }
+  div.four.columns.gray {
+    width: 100%;
+    background-color: rgba(95,105,119,.5);
+    padding: 10px 0 10px;
+    max-height: 220px;
+  }
+  img.display_photo_wide {
+    max-width: 300px;
+    max-height: 300px:
+  }
+  img.display_photo_long {
+    width: auto;
+    max-height: 200px;
+  }
 }
 
 .case-studies {
@@ -197,6 +297,7 @@ p.bold {
 /* button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+<<<<<<< HEAD
 @media (min-width: 769) {
 .button_yellow,
 button,
@@ -231,6 +332,33 @@ input[type="button"] {
   font-family: raleway;
   font-weight: 300;
   float: right;
+=======
+div.button_wrapper {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+button.button_yellow,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 65px;
+  min-width: 210px;
+  margin: 15px 0 20px;
+  padding: 10px 10px 10px;
+  color: #333;
+  text-align: center;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+>>>>>>> adding_buttons
   line-height: 22px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -243,7 +371,11 @@ input[type="button"] {
   box-sizing: border-box;
 
   */ }
+<<<<<<< HEAD
 .button_yellow:hover,
+=======
+button.button_yellow:hover,
+>>>>>>> adding_buttons
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -279,7 +411,6 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
-}
 
 @media (min-width: 350px) and (max-width: 768) {
   .button_yellow {
@@ -344,6 +475,7 @@ input[type="button"].button-primary:focus {
 
   }
 }
+
 
 
 
