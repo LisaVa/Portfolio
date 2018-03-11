@@ -189,6 +189,12 @@ div.sample_project p.large_style {
     max-height: 280px;
     margin-top: 30px;
   }
+  h3.display_photo_wide {
+    max-width: 80%;
+    max-height: 300px;
+    margin: 30% 15%;
+    line-height: 3.4rem;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 959px){
@@ -224,6 +230,12 @@ div.sample_project p.large_style {
     width: auto;
     max-height: 200px;
   }
+  h3.display_photo_wide {
+    max-width: 80%;
+    max-height: 300px;
+    padding: 30px 75px;
+    line-height: 3.4rem;
+}
 }
 
 .case-studies {
@@ -434,6 +446,7 @@ input[type="button"].button-primary:focus {
 
   }
 }
+
 
 
 
