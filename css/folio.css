@@ -47,9 +47,10 @@ h3.underline {
 }
 
 h4 { font-size: 2.25rem;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   line-height: 1.35;
+  color: rgb(95,105,119);
   letter-spacing: -.08rem;
   padding: 3rem 0rem 0rem;
   margin: 0px;
