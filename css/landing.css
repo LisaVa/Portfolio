@@ -25,6 +25,7 @@ h4.hero {
   background-color: #ffffff;
   margin-bottom: 10px;
   padding-bottom: 0px;
+  text-transform: none;
 }
 
 h2 {
@@ -98,6 +99,13 @@ p {
 
 p.white {
   font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+p.white-raleway {
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   color: #ffffff;
